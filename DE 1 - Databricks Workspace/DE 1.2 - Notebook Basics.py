@@ -300,11 +300,13 @@ print(f"DA.schema_name:       {DA.schema_name}")
 
 # COMMAND ----------
 
-dbutils.help()
+# MAGIC %sql
+# MAGIC show tables
 
 # COMMAND ----------
 
-dbutils.fs.help()
+# MAGIC %sql
+# MAGIC show schemas
 
 # COMMAND ----------
 
